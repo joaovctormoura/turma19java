@@ -1,9 +1,9 @@
 programa
 {
-//Escreva um sistema que lê os coeficientes a,b,c,d,e e f e calcula e mostra os valores de x e y.
+// 7 - Escreva um sistema que lê os coeficientes a,b,c,d,e e f e calcula e mostra os valores de x e y.
 	
 	funcao inicio()
-	{	
+	{	
 		real a
 		real b
 		real c
@@ -14,7 +14,7 @@ programa
 		real y
 
 
-//Coletando os Dados		 
+//Input		 
 					escreva("Insira o valor de a: ")
 					leia(a)
 					escreva("Insira o valor de b: ")
@@ -41,7 +41,7 @@ programa
 		f = d*x + er*y
 
 		
-//Mostrando os valores de x e y ao usuário
+//Output
 					escreva("Sendo assim, o valor de x é " + x + " e o valor de y é " + y + ".")
 		
 	}
@@ -51,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 762; 
+ * @POSICAO-CURSOR = 18; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -3,11 +3,11 @@ programa
 //Escrever um sistema que leia o custo de fábrica de um carro e escreva o custo ao consumidor.
 	
 	funcao inicio()
-	{	real custoFabrica
+	{	real custoFabrica
 		real custoConsumidor
 
 
-//Coletando os dados:
+//Input
 					escreva("Olá, em reais, insira o custo de fábrica do automóvel: ")
 					leia(custoFabrica)
 
@@ -15,7 +15,7 @@ programa
 					custoConsumidor = (custoFabrica) + (custoFabrica*0.45) + (custoFabrica*0.28)
 		
 		
-//Mostrando os resultados:
+//Output
 					escreva("O custo do automóvel ao consumidor é de R$" + custoConsumidor)  
 		
 	}
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 515; 
+ * @POSICAO-CURSOR = 396; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

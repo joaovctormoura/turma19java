@@ -1,5 +1,5 @@
 programa {
-//Sistema que leia as 3 notas de um aluno e calcule a sua média ponderada final. 
+// 5- Sistema que leia as 3 notas de um aluno e calcule a sua média ponderada final. 
 //Considerando que os pesos das notas são: 2,3 e 5, respectivamente.
 
 	funcao inicio() {
@@ -12,7 +12,7 @@ programa {
 		  real mediaFinal
 		 
 									
-//Coletando os dados
+//Input
 					escreva("Olá, qual o seu nome? ")
 					leia(nome)
 					escreva("Olá, Digite a nota da primeira prova ")
@@ -27,7 +27,7 @@ programa {
  					mediaFinal = ((prova1 * 2) + (prova2 * 3) + (prova3 * 5))/(2 + 3 + 5) 
 
 			 
-//Mensagem ao usuário
+//Output
 		    			escreva(nome + ", sua média final foi " + mediaFinal + ", parabéns! :)")
 		        
 	}
@@ -38,7 +38,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 812; 
+ * @POSICAO-CURSOR = 0; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

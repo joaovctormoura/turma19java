@@ -1,6 +1,6 @@
 programa
 {
-//Sistema que leia o tempo de duração de um evento em uma fábrica expressa em segundos e mostre-o expresso em horas, minutos e segundos.
+// 3 - Sistema que leia o tempo de duração de um evento em uma fábrica expressa em segundos e mostre-o expresso em horas, minutos e segundos.
 	
 	funcao inicio()
 	{
@@ -9,7 +9,7 @@ programa
 		real minutos
 		real segundos
 
-//Coletando os Dados
+//Input
 
 					escreva("Olá, em segundos, escreva a duração do evento ")
 					leia(segundos)
@@ -20,7 +20,7 @@ programa
 			minutos = segundos/60
 			segundos = 3600*horas
 
-//Revelando os Dados ao usuário
+//Output
 			
 					escreva("Segundo os cálculos, o evento durará " + horas + " horas, " + minutos + " minutos e " + segundos + " segundos.")
 	}
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 482; 
+ * @POSICAO-CURSOR = 0; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
