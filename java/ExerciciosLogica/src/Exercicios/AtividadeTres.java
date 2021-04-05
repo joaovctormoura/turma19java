@@ -30,7 +30,7 @@ public class AtividadeTres
 	segundos = 3600*horas;
 			
 									//OUTPUT
-									System.out.println("Segundo os cálculos, o evento durará (" + horas + ") horas, (" + minutos + ") minutos e (" + segundos + ") segundos.");
+									System.out.println("Segundo os cálculos, o evento durará ("+ horas + ") horas , (" + minutos + ") minutos %,0f e (" + segundos + ") segundos.");
 	
 	}
 }
